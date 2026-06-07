@@ -230,7 +230,7 @@ export default function EventSection() {
             <EventCard
               title="Akad Nikah"
               date="13 Juni 2026"
-              time="09:00 WIB - Selesai"
+              time="20:00 WIB - Selesai"
               location="Karangduren Rt.01/Rw.01"
               delay={0.3}
               visible={visible}
@@ -239,7 +239,7 @@ export default function EventSection() {
           <div style={{ flex: 1, minWidth: '280px', maxWidth: '380px', borderRadius: '16px', ...glowStyle(2), transition: 'box-shadow 1.5s ease' }}>
             <EventCard
               title="Resepsi"
-              date="Minggu, 27 Juli 2026"
+              date="Minggu, 26 Juli 2026"
               time="09:00 WIB - Selesai"
               location="Karangduren Rt.01/Rw.01"
               delay={0.5}
