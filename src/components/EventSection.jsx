@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 
 function EventCard({ title, date, time, location, delay, visible }) {
   const addToCalendar = () => {
-    const start = title === 'Akad Nikah' ? '20260613T090000' : '20260727T090000';
+   const start = title === 'Akad Nikah' ? '20260613T090000' : '20260727T090000';
     const end = title === 'Akad Nikah' ? '20260613T120000' : '20260727T120000';
     const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding+Eko+%26+Armita+-+${encodeURIComponent(title)}&dates=${start}/${end}&details=Pernikahan+Eko+%26+Armita&location=${encodeURIComponent(location)}`;
     window.open(url, '_blank');
