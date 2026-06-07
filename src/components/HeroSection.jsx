@@ -197,7 +197,7 @@ export default function HeroSection({ guestName }) {
       }}>
         <img
           className="photo-float"
-          src="/foto-couple.jpg"
+          src="/wedding-invitation/foto-couple.jpg"
           alt="Couple"
           style={{
             width: '100%',

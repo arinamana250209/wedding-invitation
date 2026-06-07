@@ -128,7 +128,7 @@ export default function BrideGroomSection() {
         {/* Foto couple */}
         <div className={`sc${visible ? ' vis' : ''}`}>
           <div className={`couple-full-photo${visible ? ' floating' : ''}`}>
-            <img src="/foto-couple.jpg" alt="Eko & Armita" />
+            <img src="src=/wedding-invitation/foto-couple.jpg" alt="Eko & Armita" />
           </div>
         </div>
 

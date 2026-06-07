@@ -5,7 +5,7 @@ export default function BottomNav() {
   const [active, setActive] = useState(null);
   const audioRef = useRef(null);
 
-  const MUSIC_URL = '/musikk.mp3';
+  const MUSIC_URL = '/wedding-invitation/musikk.mp3';
 
   useEffect(() => {
     const audio = new Audio(MUSIC_URL);
